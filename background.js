@@ -9,5 +9,18 @@ $('#rightCol')
 $('#contentArea')
     .css('width:', '100%');
 // $('head').append('<link href='https://fonts.googleapis.com/css?family=Belleza' rel='stylesheet' type='text/css'>');
+ // $('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', 'https://fonts.googleapis.com/css?family=Source+Sans+Pro'));
 
- $('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', 'https://fonts.googleapis.com/css?family=Belleza'));
+
+// WebFontConfig = {
+//     google: { families: [ 'Source+Sans+Pro::latin' ] }
+// };
+
+// (function() {
+//     var wf = document.createElement('script');
+//     wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+//     wf.type = 'text/javascript';
+//     wf.async = 'true';
+//     var s = document.getElementsByTagName('script')[0];
+//     s.parentNode.insertBefore(wf, s);
+// })();
