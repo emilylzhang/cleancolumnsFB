@@ -80,18 +80,33 @@ element.style {}
 ._5p3y[dir="ltr"] .uiTooltipX .tooltipContent,
 ._5p3y[dir="ltr"] a[role="button"],
 ._5p3y[dir="rtl"] *[dir="ltr"] {
-    font-family: 'Belleza', Courier, sans-serif !important;
+    font-family: 'Source Sans Pro', Courier, sans-serif !important;
+    font-weight: bold !important;
     /*font-family: Helvetica, Arial, 'lucida grande', tahoma, verdana, arial, sans-serif;*/
 }
  
+.uiScaledImageContainer .scaledImageFitWidth {
+    width: 94% !important;
+}
+
+.uiScaledImageContainer img {
+    min-height: 100px !important;
+}
+
 ._4jy1._4jy3,
 ._4jy1._4jy3._42fr:active,
 ._4jy1._4jy3._42fr._42fs {
     background-position: 0 -335px;
 }
  
+* {
+    font-family: 'Source Sans Pro', Courier, sans-serif !important;
+    font-weight: bold !important;
+}
+
 #facebook ._-kb {
-    font-family: 'Belleza', Courier, sans-serif, !important;
+    font-family: 'Source Sans Pro', Courier, sans-serif, !important;
+    font-weight: bold !important;
 }
 
 ._5p3y,
